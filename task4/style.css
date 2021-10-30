@@ -1,0 +1,16 @@
+.angle {
+    height: 500px;
+    width: 700px;
+    position: relative;
+    background-image: url(img/angletopleft.png), url(img/angletopright.png), url(img/anglebottomleft.png), url(img/anglebottomright.png), url(img/linetop.png), url(img/lineleft.png), url(img/linebottom.png), url(img/lineright.png);
+    background-position: top left, top right, bottom left, bottom right, top, left, bottom, right;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-y, repeat-x, repeat-y;
+}
+/* .lines {
+    height: 500px;
+    width: 700px;
+    position: relative;
+    background-image: url(img/linetop.png), url(img/lineleft.png), url(img/linebottom.png), url(img/lineright.png);
+    background-position: top, left, bottom, right;
+    background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+} */

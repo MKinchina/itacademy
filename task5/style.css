@@ -1,12 +1,36 @@
+body{
+    margin: 0px;
+}
 header {
-    padding-top: 20px;
+    padding: 3vh;
     font-size: 30px;
     text-align: center;
-    height:80px;
-    background-color: darkcyan;
+    background-color: lightblue;
 }
 aside {
     width: 400px;
     float: left;
     background-color: burlywood;
+}
+li {
+    font-size: 20px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+.div1 {
+    margin-left: 400px;
+}
+img {
+    width: 350px;
+    height: 200px;
+    float: left;
+    padding: 20px;
+}
+footer {
+    padding: 3vh;
+    background-color: lightblue;
+    text-align: center;
+    clear: both;
 }

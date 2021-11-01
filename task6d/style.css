@@ -1,5 +1,14 @@
-div {
-    display: inline;
-    font-size: 200px;
-    background-color: darkblue;
+.wrapper {
+    position: relative;
+}
+.star2 {
+    width: 251px;
+    height: 217px;
+    position: absolute;
+}
+.star1 {
+    position: absolute;
+}
+.star1:hover {
+    opacity: 0;
 }

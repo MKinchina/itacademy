@@ -1,0 +1,26 @@
+
+body {
+    margin: 0px;
+}
+table {
+    width: 100%;
+}
+
+.header {
+    font-size: 30px;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+.footer {
+    font-size: 30px;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+.menu {
+    width: 400px;
+    background-color: khaki;
+}

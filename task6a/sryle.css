@@ -1,0 +1,14 @@
+div {
+    margin-bottom: 30px;
+}
+
+div:first-child>a:not(a:last-of-type) {
+    padding: 10px;
+    border-right: 2px solid red;
+}
+
+.two a::after {
+    content: "|";
+    color: red;
+    padding: 15px;
+}

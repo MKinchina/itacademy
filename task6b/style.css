@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+}
+td {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid gray;
+}
+.frame td {
+    background-color: green;
+    border: 1px solid rgb(128, 8, 112);
+    width: 50px;
+    height: 20px;
+}
+.odd>td:nth-of-type(odd) {
+    background-color: white;
+}
+.even>td:nth-of-type(even) {
+    background-color: white;
+}
+.even>td:first-of-type{
+    width: 20px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid rgb(128, 8, 112);
+}
+.odd>td:first-of-type{
+    width: 20px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid rgb(128, 8, 112);
+}
+
+.frame>td:first-of-type {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border: 1px solid rgb(128, 8, 112);
+}
+.even>td:last-of-type{
+    width: 20px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid rgb(128, 8, 112);
+}
+.odd>td:last-of-type{
+    width: 20px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid rgb(128, 8, 112);
+}
+.frame>td:last-of-type {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border: 1px solid rgb(128, 8, 112);
+}

@@ -1,14 +1,16 @@
-.wrapper {
-    position: relative;
-}
-.star2 {
-    width: 251px;
-    height: 217px;
+.rating {
     position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
 }
-.star1 {
-    position: absolute;
+
+.star::before {
+    content: url(img/starfon.png);
 }
-.star1:hover {
-    opacity: 0;
+
+.star:hover,
+.star:hover ~ .star,
+.star:checked ~ .star:hover {
+    content: url(img/staryellow.png);
 }
+

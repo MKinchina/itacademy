@@ -12,3 +12,9 @@ div:first-child>a:not(a:last-of-type) {
     color: red;
     padding: 15px;
 }
+
+td:not(td:last-of-type) {
+    border-right: 3px solid red;
+    border-collapse: collapse;
+    padding: 6px;
+}

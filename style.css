@@ -13,8 +13,10 @@ div>p+p {
 div>p:first-of-type {
     color: seagreen;
 }
+
 div>p>a, body>p>a{
     color: darkblue;
+    font-weight: bolder;
 }
 
 div>p>a::before {
@@ -24,5 +26,3 @@ div>p>a::before {
 div:last-of-type {
     color: blue;
 }
-
-

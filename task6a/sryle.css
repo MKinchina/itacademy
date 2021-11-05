@@ -34,3 +34,16 @@ td:not(td:last-of-type) {
 td:last-of-type {
     padding: 6px;
 }
+
+.three {
+    margin: 0px;
+}
+
+.four>a:not(a:last-of-type) {
+    display: inline-block;
+    background-image: url(line.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+    padding-top: 20px;
+}

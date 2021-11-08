@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pr</title>
+</head>
+<body>
+    <div>
+        <p>
+            Для публикации Вашей статьи заполните, пожалуйста, следующую форму:
+        </p>
+        <label for="name">Название статьи:</label>
+        <input type="text" id="name" class="block"> <br>
+        <label for="topic">Рубрика:</label>
+        <select id="topic" class="block">
+            <option value="" autofocus>программирование</option>
+            <option value="">технологии</option>
+            <option value="">основы информатики</option>
+        </select> <br>
+        <label for="spot">Публикация:</label>
+        <div class="radio">
+            <input type="radio" name="spot" id="spot"> на сайте
+        </div>
+        <div class="radio">
+            <input type="radio" name="spot" id="spot"> в журнале
+        </div>
+        <div class="radio">
+            <input type="radio" name="spot" id="spot"> на сайте и в журнале 
+        </div> <br>
+        <label for="comments">Разрешить комментиарии:</label> 
+        <input type="checkbox" id="comments"> <br>
+        <label for="text">Текст статьи:</label>
+        <textarea id="text" cols="30" rows="5" class="block"></textarea>
+    </div>
+</body>
+</html>

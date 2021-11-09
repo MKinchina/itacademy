@@ -1,0 +1,16 @@
+.rating {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.star::before {
+    content: url(img/starfon.png);
+}
+
+.star:hover,
+.star:hover ~ .star,
+.star:checked ~ .star:hover {
+    content: url(img/staryellow.png);
+}
+

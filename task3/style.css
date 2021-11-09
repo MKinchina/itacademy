@@ -1,0 +1,16 @@
+.text1 {
+    margin: 20px 10px;
+    font-family: 'Oranienbaum', serif;
+    font-size: 25px;
+}
+.text2 {
+    margin: 20px 10px;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    white-space: pre-wrap;
+}
+.text3 {
+    margin: 20px 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}

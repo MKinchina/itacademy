@@ -1,0 +1,49 @@
+a {
+    color: darkgreen;
+}
+
+a:hover {
+    color: red;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.first>a:not(a:last-of-type) {
+    padding: 10px;
+    border-right: 2px solid red;
+}
+
+.first>a:last-of-type {
+    padding: 10px;
+}
+
+.two>a::after {
+    content: "|";
+    color: red;
+    padding: 15px;
+}
+
+td:not(td:last-of-type) {
+    border-right: 3px solid red;
+    border-collapse: collapse;
+    padding: 6px;
+}
+
+td:last-of-type {
+    padding: 6px;
+}
+
+.three {
+    margin: 0px;
+}
+
+.four>a:not(a:last-of-type) {
+    display: inline-block;
+    background-image: url(line.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+    padding-top: 20px;
+}

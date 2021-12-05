@@ -1,0 +1,18 @@
+label:not(div>label) {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.radio {
+    display: inline-block;
+}
+
+@media screen and (max-width: 622px) {
+    .radio, .block {
+        display: block;
+    }
+
+    label {
+        margin-bottom: 0px;
+    }
+}
